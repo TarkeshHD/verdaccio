@@ -52,7 +52,7 @@ USER $VERDACCIO_USER_UID
 
 EXPOSE $VERDACCIO_PORT
 
-VOLUME /verdaccio/storage
+
 
 ENTRYPOINT ["uid_entrypoint"]
 
